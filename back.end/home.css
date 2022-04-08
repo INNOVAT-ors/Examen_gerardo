@@ -1,0 +1,156 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+body {
+  background-color: #000000;
+}
+
+/* Usuario */
+
+.carros {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.carros .carro{
+  background: linear-gradient(
+    to right,
+    #26a0da,
+    #314755
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  width: 90%;
+  height: 350px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 0 0 6px black(0, 0, 0, 0.6);
+}
+
+.carros .carro img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border: 3px solid rgb(0, 0, 0);
+  display: block;
+}
+
+
+.cards .card > .contenido-texto-card {
+  width: 60%;
+  color: white;
+  text-align: center;
+}
+
+form {
+	padding: 50px 20px;
+	background-color: #887d7d69;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(206, 203, 203)
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: rgb(5, 39, 94);
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 300px;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #000000,
+    #434343
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #26a0da,
+    #314755
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+nav {
+  text-align: right;
+  padding: 30px 50 px 0 0;
+}
+
+nav > a {
+  color: #7a7070;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+}
+nav > a:hover {
+  text-decoration: underline;
+}
+
+header .textos-header {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Usuario {
+  color: #fff;
+}
+
+.textos-header h1 {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.button {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 50%;
+  background: #26a0da;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-radius: 20px;
+
+}
+
+
+
